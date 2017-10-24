@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Most Played Overwatch Heroes</title>
+ <style type="text/css">
+            .table {
+                font-family: Tahoma;
+                border-collapse:collapse;
+                font-size:18px;
+                white-space: nowrap;
+                background-color:#dddddd;
+            }
+            .header {
+                width:;
+                background-color:#f99e1a;
+                font-weight:bold;
+                border: 2px solid #43484c;
+                padding:10px;
+                color:#405275;
+            } 
+            .logo {
+                background-color:dddddd;
+                border: 2px solid #43484c;
+            }
+            .caption {
+                color:#f99e1a;
+                font-size:40px;
+                font-weight: bold;
+                font-style: italic;
+                padding:20px;
+                text-shadow:-3px 0 #43484c, 0 1px #43484c, 1px 0 #43484c, 0 -2px #43484c;
+            }
+            .text {
+                color: #001847;
+            }
+            td {
+                border: solid #405275 2px;
+                padding:3px;
+            }
+            .odd {
+                background-color: #acb8c1;
+            }
+        </style>
+    </head>
+
+    <body>
+        <table class="table collapse">
+            <caption class="caption">My Top 5 Most Played Heroes in Overwatch</caption>
+            <tr>
+                <th class=logo><img src="overwatch.png" alt="" height="100" width="100"></th>
+                <th class="header">Time Played</th>
+                <th class="header">Average Elims</th>
+                <th class="header">Average Damage</th>
+                <th class="header">Hero Specific Stats</th>
+            </tr>
+            <tr class="text">
+                <th class="header">Junkrat</th>
+                <td>16 hours</td>
+                <td>17</td>
+                <td>5,217</td>
+                <td>13 Enemies Trapped</td>
+            </tr>
+            <tr class="text odd">
+                <th class="header">Ana</th>
+                <td>13 hours</td>
+                <td>8</td>
+                <td>2,243</td>
+                <td>8,834 Healing</td>
+            </tr>
+            <tr class="text">
+                <th class="header">D.Va</th>
+                <td>12 hours</td>
+                <td>19</td>
+                <td>4,049</td>
+                <td>11,705 Damage Blocked</td>
+            </tr>
+            <tr class="text odd">
+                <th class="header">Lucio</th>
+                <td>10 hours</td>
+                <td>13</td>
+                <td>2,719</td>
+                <td>9,346 Healing</td>
+            </tr>
+            <tr class="text">
+                <th class="header">Reinhardt</th>
+                <td>8 hours</td>
+                <td>14</td>
+                <td>3,899</td>
+                <td>9,449 Damage Blocked</td>
+            </tr>
+        </table>
+    </body>
+</html>
